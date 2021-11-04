@@ -1,9 +1,9 @@
 export default class PadController {
 
-  constructor(gpnumber,clocks,player) {
+  constructor(gpnumber,clocks,player,globals) {
+    this.globals = globals
     this.stop = false
     this.gpnumber = gpnumber
-    this.clocks = clocks
     this.player = player
     this.blocked = 0
     this.x = 100
@@ -16,7 +16,7 @@ export default class PadController {
     console.log("created: controler %s| player %s",this.gpnumber,this.player)
     let ngg = navigator.getGamepads()
     let gp = ngg[this.gpnumber]
-    console.log(gp)
+    // console.log(gp)
   }
 
   buttonPressed(b) {
@@ -29,7 +29,7 @@ export default class PadController {
   loop() {
     let ngg = navigator.getGamepads()
     let gp = ngg[this.gpnumber]
-    console.log(gp)
+    // console.log(gp)
 
     if (this.buttonPressed(gp.buttons[14])) {
       this.x -= 10
@@ -61,17 +61,18 @@ export default class PadController {
     this.e.style.left = this.x+"px"
     this.e.style.top = this.y+"px"
     if(this.stop===false) {
-      setTimeout(() => {this.loop()},50)
+      setTimeout(() => {this.loop()},20)
     }
   }
 
   checkClocks() {
+    console.log("CLICK")
+    console.log(this.globals)
+    let clocks = this.globals.getCurrentClocks()
     let ngg = navigator.getGamepads()
     let gp = ngg[this.gpnumber]
-    console.log("CLICK")
-    console.log(this.clocks)
-    for(let key in this.clocks) {
-      if(this.clocks[key].checkHit(this.x,this.y,this.player)) {
+    for(let key in clocks) {
+      if(clocks[key].checkHit(this.x,this.y,this.player)) {
         console.log("HIT")
         if(gp.vibrationActuator) {
           gp.vibrationActuator.playEffect("dual-rumble", {

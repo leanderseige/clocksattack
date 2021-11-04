@@ -2,8 +2,9 @@ import PadController from './padcontroller.js'
 
 export default class Settings {
 
-  constructor(clocks) {
-    this.clocks=clocks
+  constructor(globals) {
+    this.globals =  globals
+    this.clocks = globals.clocks
     this.gp1 = false
     this.gp2 = false
     this.players = 1
@@ -61,14 +62,16 @@ export default class Settings {
     console.log(this.gamepads)
     if(this.gamepads.length>1) {
       this.sb_twogp.disabled=false
-      console.log("c1")
-      this.gp2 = new PadController(this.gamepads[1],this.clocks,2)
+      console.log("c2")
+      console.log(this.globals)
+      this.gp2 = new PadController(this.gamepads[1],this.clocks,2,this.globals)
     }
 
     if(this.gamepads.length>0) {
       this.sb_onegp.disabled=false
-      console.log("c2")
-      this.gp1 = new PadController(this.gamepads[0],this.clocks,1)
+      console.log("c1")
+      console.log(this.globals)
+      this.gp1 = new PadController(this.gamepads[0],this.clocks,1,this.globals)
     }
 
   }

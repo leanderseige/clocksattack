@@ -3,13 +3,13 @@ import Settings from './settings.js'
 
 export default class MainMenu {
 
-  constructor(globals, callback,clocks) {
+  constructor(globals, callback, clocks) {
     this.globals = globals
     this.stop = true
 
     this.callback = callback
 
-    this.settings = new Settings(clocks)
+    this.settings = new Settings(globals)
     this.e = document.getElementById("mainmenu")
     this.bg = document.getElementById("menu_background")
 

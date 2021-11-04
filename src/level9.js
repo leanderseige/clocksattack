@@ -8,7 +8,7 @@ import BackgroundLevel9 from './images/level9_background.jpg'
 export default class Level9 extends Level {
 
   configure() {
-    this.music = new Audio('./audio/level1.mp3')
+    this.music = new Audio('./audio/level2.mp3')
     this.music.pause()
     this.music.volume = this.globals.volume
     this.music.loop = true

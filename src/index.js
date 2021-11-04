@@ -26,7 +26,6 @@ import './css/weapons.css'
 import './css/gameover.css'
 import './css/nextlevel.css'
 
-let clocks = {}
 let mainmenu = false
 let score = [0,0,0] // none, player1, player2
 let flag = 'PAUSE'
@@ -40,7 +39,13 @@ let globals = {
   gameover: null,
   nextlevel: null,
   logo: null,
-  maxlevel: 0
+  maxlevel: 0,
+  clocks: {},
+  getCurrentClocks: () => { return getCurrentClocks() }
+}
+
+function getCurrentClocks() {
+  return levels[globals.current_level].clocks
 }
 
 function endGame(success) {
@@ -68,12 +73,12 @@ function startGame() {
   mainmenu.hide()
   globals.logo.hide()
   levels[globals.current_level].start()
-  clocks = levels[globals.current_level].clocks
+  globals.clocks = levels[globals.current_level].clocks
 }
 
 function enterMenu() {
   // globals.logo.unhide()
-  mainmenu = new MainMenu(globals, () => { startGame() }, clocks)
+  mainmenu = new MainMenu(globals, () => { startGame() }, globals.clocks)
   mainmenu.unhide()
 }
 

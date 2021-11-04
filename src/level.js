@@ -198,11 +198,11 @@ configure() {
 }
 
   animate_clocks() {
-    if(this.time>8000) {
+    if(this.time>12000) {
       if(Object.keys(this.clocks).length===0)  {
         this.success()
       }
-    } else if(this.time>6000) {
+    } else if(this.time>9000) {
       if(Math.random()>.8 && this.boss===false) {
         // this.clocks[++this.clockid]=new Clock3(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
       } else if(Math.random()>.4) {
@@ -210,17 +210,17 @@ configure() {
       } else {
         this.clocks[++this.clockid]=new Clock1(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
       }
-    } else if(this.time>4000) {
+    } else if(this.time>7000) {
       if(Math.random()>.5) {
         this.clocks[++this.clockid]=new Clock2(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
       } else {
         this.clocks[++this.clockid]=new Clock1(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
       }
-    } else if(this.time>2000) {
+    } else if(this.time>5000) {
       this.clocks[++this.clockid]=new Clock2(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
-    } else {
+    } else if(this.time>3000) {
       this.clocks[++this.clockid]=new Clock1(this.globals, this.clockid, (id,action,player) => { this.clockManager(id,action,player) } )
-    }
+    } else {}
   }
 
 }
