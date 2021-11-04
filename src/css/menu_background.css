@@ -1,0 +1,56 @@
+#menu_background {
+  background: black;
+  z-index: 600;
+}
+
+.mm_clock {
+  position:absolute;
+  left:-25vh;
+  top:10vh;
+  width:100vh;
+  height:100vh;
+  background-image: url('../images/alarm.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  animation-name: mm_clock_kf;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: .5;
+  z-index:610;
+}
+
+.mm_shadow {
+  position:absolute;
+  left:0;
+  top:10vh;
+  width:100vh;
+  height:100vh;
+  background-image: linear-gradient(0deg, rgb(0,0,0,0) 0%, rgb(0,0,0,192) 45%, rgb(0,0,0,192) 55%, rgb(0,0,0,0) 100%);
+  animation-name: mm_shadow_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index:620;
+}
+
+@keyframes mm_clock_kf {
+  from {
+    top:-100vh;
+    transform: rotate(0deg);
+  }
+  to {
+    top:100vh;
+    transform: rotate(120deg);
+  }
+}
+
+@keyframes mm_shadow_kf {
+  from {
+    top:100vh;
+  }
+  to {
+    top:-100vh;
+  }
+}

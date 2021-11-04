@@ -1,0 +1,57 @@
+.nextlevelA {
+  display: block;
+  position: absolute;
+  z-index: 220;
+
+  color: black;
+  font-family: Impact;
+  font-size: 9vh;
+  -webkit-text-stroke: .3vh red;
+
+  animation-name: nextlevel_spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in;
+
+  pointer-events: none;
+}
+
+.nextlevelB {
+  display: block;
+  position: absolute;
+  z-index: 220;
+
+  color: black;
+  font-family: Impact;
+  font-size: 9vh;
+  -webkit-text-stroke: .3vh red;
+
+  transform: translate(-50%, 0);
+
+  animation-name: nextlevel_spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in;
+
+  pointer-events: none;  
+}
+
+
+@keyframes nextlevel_spin {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    25% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(720deg) scale(3);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,25 @@
+.apples {
+  position: absolute;
+  top:0;
+  width:40vh;
+  z-index:100;
+  margin:0;
+  animation-name: appleskf;
+  animation-duration: .7s;
+  user-select: none;
+}
+
+@keyframes appleskf {
+  from {
+    margin: -19vh 0 0 -19vh;
+    width:50vh;
+    opacity: 0.5;
+    transform: rotate(0deg);
+  }
+  to {
+    margin: 1vh 0 0 0;
+    width:5vh;
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}

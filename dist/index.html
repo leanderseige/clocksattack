@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <script src="bundle.js"></script>
+
+    <div id="mainframe">
+
+      <div id="level_background" draggable="false" class="fullscreen">
+        <!-- <div id="level_background_overlay" draggable="false" class="fullscreen"></div> -->
+        <!-- <img id="sleeper" draggable="false" /> -->
+        <img id="sleeperawake" draggable="false" />
+      </div>
+
+      <div id="score">
+        <span id="scoreleft" draggable="false"></span>
+        <span id="scoremiddle" draggable="false"></span>
+        <span id="scoreright" draggable="false"></span>
+      </div>
+
+      <div id="menu_background" class="fullscreen">
+        <div class="mm_shadow"></div>
+        <div class="mm_clock"></div>
+      </div>
+
+      <div id="mainmenu" class="fullscreen">
+        <h1 draggable="false">Welcome!</h1>
+        <button type="button" id="mb_start" class="button">Start</button><br />
+        <button type="button" id="mb_settings" class="button">Settings</button><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <p>
+          Idea and Coding:<br />
+          Leander Seige<br />
+          <br />
+          Music:<br />
+          Chris Huelsbeck<br />
+          Juhani Junkala
+        </p>
+      </div>
+
+      <div id="settings" class="fullscreen">
+        <h1 draggable="false">Settings</h1>
+        <button type="button" id="sb_mouse" class="button">Mouse</button><br />
+        <button type="button" id="sb_touch" class="button">Touch</button><br />
+        <button type="button" id="sb_onegp" class="button">1 Gamepad</button><br />
+        <button type="button" id="sb_twogp" class="button">2 Gamepads</button><br />
+        <button type="button" id="sb_launch" class="button">OK</button><br />
+      </div>
+
+      <div id="preloader" class="fullscreen">
+        <h1 draggable="false">Loading</h1>
+        <div id="preloader_progress">
+          <div id="preloader_progress_bar"></div>
+        </div>
+        <button type="button" id="pl_enter" class="button">Enter</button><br />
+      </div>
+
+
+    </div>
+  </body>
+</html>

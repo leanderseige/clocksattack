@@ -1,0 +1,38 @@
+@media (max-aspect-ratio: 9/15) {
+
+  body,
+  #mainframe,
+  #level_background,
+  #preloader,
+  #mainmenu,
+  .fullscreen {
+    width:100vw;
+    height:100%;
+    overflow: hidden;
+  }
+
+  #score {
+    width:100vw;
+  }
+
+  #sleeper {
+    display:block;
+    position: absolute;
+    width:100vw;
+    bottom:0;
+    padding:0;
+    z-index:115;
+    user-select: none;
+  }
+
+  #sleeperawake {
+    display:block;
+    position: absolute;
+    width:100vw;
+    bottom:0;
+    padding:0;
+    z-index:116;
+    user-select: none;
+  }
+
+}

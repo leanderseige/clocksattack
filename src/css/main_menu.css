@@ -1,0 +1,17 @@
+#mainmenu {
+  position: absolute;
+  z-index:700;
+  height:100%;
+  overflow: hidden;
+  padding-top: 30vh;
+}
+
+#mainmenu h1, #mainmenu p {
+  position: relative;
+  z-index:750;
+}
+
+.logo {
+  z-index:780;
+  position:absolute;
+}

@@ -1,0 +1,136 @@
+/*
+  Z Index
+
+  10  Main Frame
+
+  100 - 199 Level Elements
+    100 Background
+    115 Sleeper
+    116 Sleeper awake
+    150 Clocks
+
+    199 fadeinout
+
+  200 - 299 InGame Display
+    220 Game Over
+    250 crosshair
+    299 Score
+
+  600 - 699 Menu Background
+
+  700 - 799 Main Menue
+
+  800 - 899 Settings
+
+  900 - 999 Preloader
+
+*/
+
+/* Basics */
+
+html, body {
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100%;
+  background-color: #000;
+  overflow: hidden;
+  font-family: Impact, sans-serif;
+}
+
+h1 {
+  color: #20ff20;
+}
+
+.button {
+  position: relative;
+  display: block;
+  margin: 1vh auto;
+  background-color: transparent;
+  border: .3vh solid #20ff20;
+  border-radius: 1vh;
+  color: #20ff20;
+  padding: 2vh 4vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+}
+
+.button:disabled {
+  border: .3vh solid #108010;
+  color: #108010;
+}
+
+/* Main Frame */
+
+#mainframe {
+  height:100vh;
+  width:50vh;
+  margin:auto;
+  padding:0;
+  z-index:10;
+  font-size: 2vh;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.fullscreen {
+  position: absolute;
+  top:0;
+  height:100vh;
+  width:50vh;
+  margin:0;
+  padding:0;
+  text-align: center;
+  color: #20ff20;
+  overflow: hidden;
+}
+
+#preloader_progress {
+  width:100%;
+  height:1vh;
+  background-color: #104010;
+  border:none;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+#preloader_progress_bar {
+  width:0%;
+  height:1vh;
+  background-color: #20ff20;
+  border:none;
+  padding:0;
+  margin:0;
+}
+
+#settings {
+  z-index:800;
+}
+
+#preloader {
+  z-index:900;
+  background:black;
+  padding-top: 30vh;
+}
+
+.shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

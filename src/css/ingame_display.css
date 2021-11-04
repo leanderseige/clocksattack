@@ -1,0 +1,56 @@
+/* InGame Display */
+
+#score {
+  position: absolute;
+  z-index:299;
+  width:50vh;
+  display:block;
+  height:2vh;
+  padding:0;
+  margin:0;
+  background-color: #000;
+  color: #fff;
+}
+
+#scoreleft {
+  display:block;
+  position: absolute;
+  width: 100%;
+  top:0;
+  left: 0;
+  padding:0;
+  margin:0;
+  text-align: left;
+}
+
+#scoremiddle {
+  display:block;
+  position: absolute;
+  width: 100%;
+  top:0;
+  left: 0;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+#scoreright {
+  display:block;
+  position: absolute;
+  width: 100%;
+  top:0;
+  left: 0;
+  padding:0;
+  margin:0;
+  text-align: right;
+}
+
+.crosshair {
+  display:block;
+  position: absolute;
+  width:2vh;
+  height:2vh;
+  color:black;
+  background-color: red;
+  z-index: 250;
+}
