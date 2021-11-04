@@ -107,7 +107,12 @@ h1 {
 }
 
 #settings {
+  display:none;
   z-index:800;
+}
+
+#mb_settings {
+  display: none;
 }
 
 #preloader {

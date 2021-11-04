@@ -16,7 +16,7 @@ export default class Settings {
     this.sb_onegp = document.getElementById('sb_onegp')
     this.sb_twogp = document.getElementById('sb_twogp')
     this.sb_launch = document.getElementById('sb_launch')
-    this.sb_launch.onclick = () => {this.hide()}
+    this.sb_launch.onclick = () => { this.hide() }
     this.gamepads = []
     this.checkGamepads()
     window.addEventListener("gamepadconnected",(e) => {this.checkGamepads(e)})
