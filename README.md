@@ -22,7 +22,7 @@ Development:
 
 ## Media Sources
 
-First of all, I want to thank each and everybody who provides reusable media on the net. Below you will find a complete list of all media files used in the open source game CLOCKS ATTACK!!!
+First of all, I want to thank each and everybody who provides reusable media on the net. Below you will find a complete list of all media sources I used in the open source game CLOCKS ATTACK!!!
 
 ## Music
 
