@@ -50,7 +50,8 @@
   position: absolute;
   width:2vh;
   height:2vh;
-  color:black;
-  background-color: red;
+  font-size: 2vh;
+  color:green;
+  background-color: transparent;
   z-index: 250;
 }

@@ -10,7 +10,7 @@ export default class PadController {
     this.y = 100
     this.e = document.createElement("div")
     this.e.classList.add("crosshair")
-    this.e.innerHTML=this.player
+    this.e.innerHTML='&#65291;' //  this.player
     document.getElementById('mainframe').appendChild(this.e)
     this.loop()
     console.log("created: controler %s| player %s",this.gpnumber,this.player)
