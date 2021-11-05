@@ -1,5 +1,9 @@
 # CLOCKS ATTACK!!!
 
+![Clocks Attack](doc/tafel.png)
+
+This game is my contribution to open cultural data hackathon Coding da Vinci Nieder.Rhein.Land 2021  (https://codingdavinci.de/de/events/niederrheinland-2021). In this games opulent grand clocks from Benrath Palace disturb the sleep of humans and animals from popular works of art and culture. The player can prevent this and save them from being woken up. 
+
 ## Building the Game
 
 Download and install
