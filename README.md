@@ -40,7 +40,7 @@ You may also visit http://www.huelsbeck.com/ and check out Chris Huelsbecks work
 ### In-Level Tracks: "4 Chiptune Adventures" by Juhani Junkala
 published under Creative Commons License CC0 on https://opengameart.org/content/4-chiptunes-adventure
 
-You may also visit https://juhanijunkala.com and check out Juhani Junkala work. 
+You may also visit https://juhanijunkala.com and check out Juhani Junkalas work. 
 
 ---
 
