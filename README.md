@@ -116,7 +116,7 @@ Sleeper: Clay figure of a reclining lady (Malta), Jan van der Crabben, CC BY-SA 
 
 ## LEVEL 11 DELETED
 
-DELETED Background and Sleeper, Henri Rousseau, The Sleeping Gypsy, Public Domain, https://en.wikipedia.org/wiki/File:La_Boh%C3%A9mienne_endormie.jpg
+DELETED (License Conflict: Wikimedia vs MoMa, unclear!) Background and Sleeper: The Sleeping Gypsy, Henri Rousseau, ?, https://en.wikipedia.org/wiki/File:La_Boh%C3%A9mienne_endormie.jpg
 
 ## LEVEL 12
 
