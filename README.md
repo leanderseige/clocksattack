@@ -33,10 +33,7 @@ First of all, I want to thank each and everybody who provides reusable media on 
 ### Main Screen Music: "A Look To The Future" by **Chris Huelsbeck**
 used under a royalty-free license, please visit https://www.patreon.com/chris_huelsbeck for more info!
 
-
-Post: https://www.patreon.com/posts/new-track-look-43399271
-
-See also the file Chris_Huelsbeck_Patreon.pdf (page 4), a screenshot of https://www.patreon.com/chris_huelsbeck/membership
+Chris Huelsbeck
 
 ---
 
