@@ -1,4 +1,4 @@
-# Clocks Attack!!!
+# CLOCKS ATTACK!!!
 
 ## Building the Game
 
@@ -60,9 +60,9 @@ Several sound effects from the Free Sounds Library, all under Creative Commons L
 
 ### ALL LEVELS:
 
-Schloß Benrath (Coding da Vinci Datensatz), Uhren aus der Sammlung Schloß Benrath, CC BY-SA 4.0, https://codingdavinci.de/daten/kurfuerstliche-zeitmesser-uhren-aus-der-sammlung-von-schloss-benrath
+Schloß Benrath (Coding da Vinci Datensatz), Uhren aus der Sammlung Schloß Benrath, CC BY-SA 4.0, https://codingdavinci.de/daten/kurfuerstliche-zeitmesser-uhren-aus-der-sammlung-von-schloss-benrath (Clocks and Debris)
 
-Stiftung Schloss Friedenstein (Coding da Vinci Datensatz), Modellfrüchte aus Wachs, Stiftung Schloss Friedenstein, CC0 1.0, https://codingdavinci.de/de/daten/modellfruechte-aus-wachs
+Stiftung Schloss Friedenstein (Coding da Vinci Datensatz), Modellfrüchte aus Wachs, Stiftung Schloss Friedenstein, CC0 1.0, https://codingdavinci.de/de/daten/modellfruechte-aus-wachs (Apple)
 
 ### LEVEL 1
 
