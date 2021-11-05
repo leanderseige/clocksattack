@@ -1,3 +1,5 @@
+import AppleImage from './images/apple.png'
+
 export default class PadController {
 
   constructor(gpnumber,clocks,player,globals) {
@@ -6,11 +8,12 @@ export default class PadController {
     this.gpnumber = gpnumber
     this.player = player
     this.blocked = 0
-    this.x = 100
-    this.y = 100
+    this.x = 50
+    this.y = 50
     this.e = document.createElement("div")
     this.e.classList.add("crosshair")
-    this.e.innerHTML='&#65291;' //  this.player
+    this.e.style.backgroundImage = `url(${AppleImage})`
+    // this.e.innerHTML='&#65291;' //  this.player
     document.getElementById('mainframe').appendChild(this.e)
     this.loop()
     console.log("created: controler %s| player %s",this.gpnumber,this.player)
@@ -32,16 +35,21 @@ export default class PadController {
     // console.log(gp)
 
     if (this.buttonPressed(gp.buttons[14])) {
-      this.x -= 10
+      this.x -= 1
     } else if (this.buttonPressed(gp.buttons[12])) {
-      this.y -= 10
+      this.y -= 1
     }
 
     if (this.buttonPressed(gp.buttons[13])) {
-      this.y += 10
+      this.y += 1
     } else if (this.buttonPressed(gp.buttons[15])) {
-      this.x += 10
+      this.x += 1
     }
+
+    this.x = this.x>100?100:this.x
+    this.y = this.y>100?100:this.y
+    this.x = this.x<0?0:this.x
+    this.y = this.y<0?0:this.y
 
     if (
       this.buttonPressed(gp.buttons[0]) ||
@@ -58,25 +66,34 @@ export default class PadController {
     }
 
     if(gp.axes && gp.axes.length>1) {
-      this.x += Math.round(3*gp.axes[0])*4
-      this.y += Math.round(3*gp.axes[1])*4
+      this.x += Math.round(2*gp.axes[0])
+      this.y += Math.round(2*gp.axes[1])
     }
 
-    this.e.style.left = this.x+"px"
-    this.e.style.top = this.y+"px"
+    this.e.style.left = this.x+"vh"
+    this.e.style.top = this.y+"vh"
     if(this.stop===false) {
       setTimeout(() => {this.loop()},20)
     }
   }
 
+  getPixelCoords() {
+    let r = this.e.getBoundingClientRect()
+    return({
+      x: r.left+(r.right-r.left)/2,
+      y: r.top+(r.bottom-r.top)/2
+    })
+  }
+
   checkClocks() {
+    let p = this.getPixelCoords()
     console.log("CLICK")
     console.log(this.globals)
     let clocks = this.globals.getCurrentClocks()
     let ngg = navigator.getGamepads()
     let gp = ngg[this.gpnumber]
     for(let key in clocks) {
-      if(clocks[key].checkHit(this.x,this.y,this.player)) {
+      if(clocks[key].checkHit(p.x,p.y,this.player)) {
         console.log("HIT")
         if(gp.vibrationActuator) {
           gp.vibrationActuator.playEffect("dual-rumble", {

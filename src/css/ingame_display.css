@@ -46,12 +46,16 @@
 }
 
 .crosshair {
-  display:block;
+  display: block;
   position: absolute;
-  width:2vh;
-  height:2vh;
-  font-size: 2vh;
-  color:green;
-  background-color: transparent;
+  width: 6vh;
+  height: 6vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  /* font-family: Arial, sans-serif; */
+  /* font-size: 4vh; */
+  color: #20ff20;
+  /* background-color: transparent; */
   z-index: 250;
 }
