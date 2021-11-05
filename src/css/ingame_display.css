@@ -52,10 +52,28 @@
   height: 6vh;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   /* font-family: Arial, sans-serif; */
   /* font-size: 4vh; */
   color: #20ff20;
   /* background-color: transparent; */
   z-index: 250;
+  animation: crosshairkf 3s infinite linear;
+  mix-blend-mode: normal;
+}
+
+@keyframes crosshairkf {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.66;
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 0.99;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.66;
+  }
+
 }
