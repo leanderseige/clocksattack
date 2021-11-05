@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
 .gameover {
   display: block;
   position: absolute;
   z-index: 220;
 
   color: black;
-  font-family: Impact;
+  font-family: 'Teko', sans-serif;
   font-size: 9vh;
   -webkit-text-stroke: .3vh red;
 

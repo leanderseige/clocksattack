@@ -22,6 +22,13 @@ import BackgroundLevel8 from './images/level8_background.jpg'
 import BackgroundLevel9 from './images/level9_background.jpg'
 import BackgroundLevel10 from './images/level10_background.jpg'
 import BackgroundLevel12 from './images/level12_background.jpg'
+import DebrisImg1 from './images/debris1.png'
+import DebrisImg2 from './images/debris2.png'
+import DebrisImg3 from './images/debris3.png'
+import DebrisImg4 from './images/debris4.png'
+import DebrisImg5 from './images/debris5.png'
+import DebrisImg6 from './images/debris6.png'
+import DebrisImg7 from './images/debris7.png'
 
 
 export default class Preloader {
@@ -53,7 +60,16 @@ export default class Preloader {
         ClockImage2A,
         ClockImage2B,
         ClockImage3,
+        DebrisImg1,
+        DebrisImg2,
+        DebrisImg3,
+        DebrisImg4,
+        DebrisImg5,
+        DebrisImg6,
+        DebrisImg7,
         './audio/level1.mp3',
+        './audio/level2.mp3',
+        './audio/level3.mp3',
         './audio/ch_alooktothefuture.mp3'
       ]
       this.callback = callback

@@ -29,6 +29,7 @@ import './css/nextlevel.css'
 let mainmenu = false
 let preloader = false
 let levels = {}
+let score  = [0,0,0]
 
 let globals = {
   current_level: 1,
