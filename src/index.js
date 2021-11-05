@@ -27,8 +27,6 @@ import './css/gameover.css'
 import './css/nextlevel.css'
 
 let mainmenu = false
-let score = [0,0,0] // none, player1, player2
-let flag = 'PAUSE'
 let preloader = false
 let levels = {}
 

@@ -16,9 +16,9 @@ Development:
 
 ```npx webpack serve --config webpack.dev.js```
 
-## Media Sources
+---
 
-# CLOCKS ATTACK!!! Media Files
+## Media Sources
 
 First of all, I want to thank each and everybody who provides reusable media on the net. Below you will find a complete list of all media files used in the open source game CLOCKS ATTACK!!!
 
@@ -64,23 +64,21 @@ Stiftung Schloss Friedenstein (Coding da Vinci Datensatz), Modellfrüchte aus Wa
 
 ## LEVEL 1
 
-Sleeper: Städel Museum (Coding da Vinci Datensatz) Liegender Hund im Schnee, Franz Marc, CC BY-SA 4.0, https://codingdavinci.de/daten/staedel-museum
+Sleeper: Liegender Hund im Schnee, Franz Marc, Städel Museum (Coding da Vinci Datensatz), CC BY-SA 4.0, https://codingdavinci.de/daten/staedel-museum
 
-Background:
+Background: Holzkirche, Ludwig Michalek, Belvedere Wien, CC BY-SA 4.0, https://sammlung.belvedere.at/objects/6223/holzkirche
 
-Ludwig Michalek, Holzkirche, Belvedere Wien, CC BY-SA 4.0, https://sammlung.belvedere.at/objects/6223/holzkirche
-
-DELETED (License Conflict: Wikimedia vs MoMa, unclear!) Background: Starry Night, Van Gogh - Wikimedia, Public Domain, https://en.wikipedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+DELETED (License Conflict: Wikimedia vs MoMa, unclear!) Background: Starry Night, Van Gogh  https://en.wikipedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
 
 ## LEVEL 2 DELETED
 
-DELETED Sleeper and Background: https://heidicon.ub.uni-heidelberg.de/detail/915190 (DELETED, https://digi.ub.uni-heidelberg.de/de/bpd/nutzungsbedingungen.html)
+DELETED Sleeper and Background: https://heidicon.ub.uni-heidelberg.de/detail/915190 / https://digi.ub.uni-heidelberg.de/de/bpd/nutzungsbedingungen.html
 
 ## LEVEL 3
 
-Background: https://codingdavinci.de/daten/kinopostkarten
+Background: Kinopostkarte, Filmmuseum Düsseldorf, CC BY 4.0, https://codingdavinci.de/daten/kinopostkarten
 
-Sleeper: Albert Joseph Moore - Dreamers, CC0, https://dams.birminghammuseums.org.uk/asset-bank/action/viewAsset?id=4079
+Sleeper: Dreamers, Albert Joseph Moore, Birmingham Museums, CC0, https://dams.birminghammuseums.org.uk/asset-bank/action/viewAsset?id=4079
 
 ## LEVEL 4
 
@@ -90,29 +88,29 @@ Sleeper: Horas de Clinton, Biblioteca Nacional de España, CC BY 4.0, http://bdh
 
 ## LEVEL 5
 
-Background and Sleeper: Jonge vrouw en oude man in een paleisruimte, Rijksmuseum, Public Domain, https://www.rijksmuseum.nl/en/collection/RP-T-1993-348 / https://www.arkyves.org/r/view/IIHIM_RIJKSMUSEUM_-841633167/him_RIJKSMUSEUM
+Background and Sleeper: Jonge vrouw en oude man in een paleisruimte, Anonymous (Kashmir), Rijksmuseum, Public Domain, https://www.rijksmuseum.nl/en/collection/RP-T-1993-348 / https://www.arkyves.org/r/view/IIHIM_RIJKSMUSEUM_-841633167/him_RIJKSMUSEUM
 
 ## LEVEL 6
 
-Background and Sleeper: Wilhelm von Kaulbach, Das Märchen von Amor und Psyche: Psyche schlafend, Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/8MLv8Ed4z3/wilhelm-von-kaulbach/das-maerchen-von-amor-und-psyche-psyche-schlafend
+Background and Sleeper: Das Märchen von Amor und Psyche: Psyche schlafend, Wilhelm von Kaulbach, Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/8MLv8Ed4z3/wilhelm-von-kaulbach/das-maerchen-von-amor-und-psyche-psyche-schlafend
 
 ## LEVEL 7 DELETED
 
-DELETED (Yale did not respond to licensing question of the images) Background and Sleeper: The Voynich Manuscript, Folio 82r, https://www.jasondavies.com/voynich/#f82r/0.661/0.385/5.00 / https://collections.library.yale.edu/catalog/2002046
+DELETED (Yale did not respond to licensing question of the images yet) Background and Sleeper: The Voynich Manuscript, Folio 82r, Yale University Libraries, https://www.jasondavies.com/voynich/#f82r/0.661/0.385/5.00 / https://collections.library.yale.edu/catalog/2002046
 
 ## LEVEL 8
 
-Background and Sleeper: Colonna, Francesco: Hypnerotomachia Poliphili, Bayerische Staatsbibliothek, CC BY-NC-SA 4.0, https://digitale-sammlungen.de/en/view/bsb00039006?page=16,17
+Background and Sleeper: Hypnerotomachia Poliphili, Francesco Colonna, Bayerische Staatsbibliothek, CC BY-NC-SA 4.0, https://digitale-sammlungen.de/en/view/bsb00039006?page=16,17
 
 ## LEVEL 9
 
-Background:  Peter Jacob Horemans, Schlafendes Küchenmädchen, Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/ApL8BJQ4N2/peter-jacob-horemans/schlafendes-kuechenmaedchen
+Background: Schlafendes Küchenmädchen, Peter Jacob Horemans, Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/ApL8BJQ4N2/peter-jacob-horemans/schlafendes-kuechenmaedchen
 
-Sleeper: Peter Jacob Horemans, Küchenstillleben mit weiblicher Figur und Papagei (Das Gefühl), Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/A0GOzbELdp/peter-jacob-horemans/kuechenstillleben-mit-weiblicher-figur-und-papagei-das-gefuehl
+Sleeper: Küchenstillleben mit weiblicher Figur und Papagei (Das Gefühl), Peter Jacob Horemans, Bayerische Staatsgemäldesammlung, CC BY_SA 4.0, https://www.sammlung.pinakothek.de/de/artwork/A0GOzbELdp/peter-jacob-horemans/kuechenstillleben-mit-weiblicher-figur-und-papagei-das-gefuehl
 
 ## LEVEL 10
 
-Background: Wikimedia User -jkb-, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Malta_04_Hypogeum_Hal_Saflieni.jpg
+Background: Hypogeum Ħal Saflieni (Malta), das Heiligtum Holy of Holies', Wikimedia User -jkb-, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Malta_04_Hypogeum_Hal_Saflieni.jpg
 
 Sleeper: Clay figure of a reclining lady (Malta), Jan van der Crabben, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:245.jpg
 
@@ -126,4 +124,4 @@ Background and Sleeper: A Courtesan Catching Her Attendant Sleeping, Suzuki Haru
 
 ## LEVEL 13 DELETED
 
-DELETED (image surprisingly not CC licensed) Background and Sleeper: A Sleeping Princess, https://asia.si.edu/object/S1986.458/
+DELETED (image surprisingly not CC licensed) Background and Sleeper: A Sleeping Princess, Smithsonian Institution, https://asia.si.edu/object/S1986.458/

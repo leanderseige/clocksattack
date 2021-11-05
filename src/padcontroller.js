@@ -53,6 +53,10 @@ export default class PadController {
       }
     }
 
+    if(this.buttonPressed(gp.buttons[9])) {
+      this.globals.startGame()
+    }
+
     if(gp.axes && gp.axes.length>1) {
       this.x += Math.round(3*gp.axes[0])*4
       this.y += Math.round(3*gp.axes[1])*4

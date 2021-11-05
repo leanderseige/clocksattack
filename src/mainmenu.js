@@ -4,11 +4,15 @@ import Settings from './settings.js'
 export default class MainMenu {
 
   constructor(globals, callback, clocks) {
-    this.globals = globals
     this.stop = true
-
+    this.globals = globals
     this.callback = callback
-
+    this.globals.startGame = () => {
+      if(this.stop===false) {
+        this.callback()
+      }
+    }
+    
     this.settings = new Settings(globals)
     this.e = document.getElementById("mainmenu")
     this.bg = document.getElementById("menu_background")
