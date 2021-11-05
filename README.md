@@ -31,18 +31,16 @@ First of all, I want to thank each and everybody who provides reusable media on 
 ## Music
 
 ### Main Screen Music: "A Look To The Future" by **Chris Huelsbeck**
-used under a royalty-free license, please visit https://www.patreon.com/chris_huelsbeck for more info!
+used under a royalty-free license, please visit https://www.patreon.com/chris_huelsbeck for more info! 
 
-Chris Huelsbeck
+You may also visit http://www.huelsbeck.com/ and check out Chris Huelsbecks work.
 
 ---
 
 ### In-Level Tracks: "4 Chiptune Adventures" by Juhani Junkala
-Creative Commons License CC0
+published under Creative Commons License CC0 on https://opengameart.org/content/4-chiptunes-adventure
 
-https://opengameart.org/content/4-chiptunes-adventure
-
-https://juhanijunkala.com
+You may also visit https://juhanijunkala.com and check out Juhani Junkala work. 
 
 ---
 
