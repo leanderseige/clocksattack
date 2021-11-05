@@ -76,7 +76,9 @@ function startGame() {
 }
 
 function enterMenu() {
-  // globals.logo.unhide()
+  console.log("enterM")
+  globals.logo = new Logo()
+  globals.logo.unhide()
   mainmenu = new MainMenu(globals, () => { startGame() }, globals.clocks)
   mainmenu.unhide()
 }
@@ -86,7 +88,6 @@ function enterMenu() {
 console.log("Clocks Attack!!!")
 
 window.onload = () => {
-  globals.logo = new Logo()
   globals.gameover = new GameOver()
   globals.nextlevel = new NextLevel()
   levels[1] = new Level1( globals,
@@ -143,6 +144,5 @@ window.onload = () => {
   // )
   globals.maxlevel = 13
   globals.current_level=1
-  preloader = new Preloader(() => { enterMenu() })
-  preloader.preload()
+  preloader = new Preloader( () => { enterMenu() } )
 }

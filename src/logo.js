@@ -57,8 +57,8 @@ export default class Logo {
     let scalea = this.animnow/this.animabs + 1.5
     this.imgc.style.transform = " scale(" + scalec + ") " + " translate(0%,300%) rotate(" + rotc + "deg) translate(0%,-300%)"
     this.imga.style.transform = " scale(" + scalea + ") " + " translate(0%,500%) rotate(" + rota + "deg) translate(0%,-500%)"
-    this.imgc.style.opacity = 1 // -(this.animnow/this.animabs)
-    this.imga.style.opacity = 1 // -(this.animnow/this.animabs)
+    this.imgc.style.opacity = 1 -(this.animnow/this.animabs)
+    this.imga.style.opacity = 1 -(this.animnow/this.animabs)
     if( (this.animstep>0 && this.animnow<=this.animend)
         || (this.animstep<0 && this.animnow>=this.animend)
     ) {

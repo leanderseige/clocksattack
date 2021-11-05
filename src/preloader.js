@@ -33,8 +33,6 @@ import DebrisImg7 from './images/debris7.png'
 
 export default class Preloader {
 
-  percent = 0
-
   constructor(callback) {
       let assets=[
         Sleeper1ImageUp,
@@ -72,25 +70,32 @@ export default class Preloader {
         './audio/level3.mp3',
         './audio/ch_alooktothefuture.mp3'
       ]
+      this.e = document.getElementById('preloader')
+      this.bar = document.getElementById('preloader_progress_bar')
+      this.percent = 0
+      this.blobs = {}
       this.callback = callback
-      this.e = document.getElementById("preloader")
-      this.bar = document.getElementById("preloader_progress_bar")
-      this.button = document.getElementById("pl_enter")
-      this.button.disabled = true
-      this.button.onclick = () => {
-          this.e.style.display="none"
-          this.callback()
-      }
       this.preload(assets)
   }
 
   async preload(files) {
     for(let key in files) {
-      let file = await fetch(files[key])
+      this.blobs[key] = await fetch(files[key])
       this.percent=parseInt((key/(files.length-1))*100)
       this.bar.style.width = this.percent+"%"
     }
-    this.button.disabled = false
+    this.exit()
+  }
+
+  exit() {
+    if(this.percent<100)  {
+      console.log("NO "+this.percent)
+      setTimeout( () => { this.exit() }, 1000)
+    } else {
+      console.log("YES")
+      this.callback()
+      this.e.style.display="none"
+    }
   }
 
 }

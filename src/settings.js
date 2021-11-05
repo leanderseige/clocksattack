@@ -24,9 +24,6 @@ export default class Settings {
   }
 
   checkGamepads(e) {
-    console.log("checkGPs controler")
-    console.log(this)
-
     if(this.gp1!==false) {
       this.gp1.remove()
       delete this.gp1
