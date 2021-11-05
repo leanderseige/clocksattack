@@ -10,15 +10,15 @@ Download and install
 
 ```git clone git@github.com:leanderseige/clocksattack.git```
 
-cd in and
+```cd clocksattack```
 
 ```npm install```
 
-Build Game:
+Build the game for production:
 
 ```npx webpack --config=webpack.prod.js``` ...then serve folder ```dist/```.
 
-Development:
+Or run development server:
 
 ```npx webpack serve --config webpack.dev.js```
 
