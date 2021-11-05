@@ -1,8 +1,8 @@
 # CLOCKS ATTACK!!!
 
-![Clocks Attack](doc/tafel.png)
+![Clocks Attack](doc/github-socmed.png)
 
-This game is my contribution to the open cultural data hackathon Coding da Vinci Nieder.Rhein.Land 2021  (https://codingdavinci.de/de/events/niederrheinland-2021). In this game opulent grand clocks from Benrath Palace disturb the sleep of humans and animals from popular works of art and culture. The player can prevent this and save them from being woken up by throwing apples at the approaching clocks. 
+This game is my contribution to the open cultural data hackathon Coding da Vinci Nieder.Rhein.Land 2021  (https://codingdavinci.de/de/events/niederrheinland-2021). In this game opulent grand clocks from Benrath Palace disturb the sleep of humans and animals from popular works of art and culture. The player can prevent this and save them from being woken up by throwing apples at the approaching clocks.
 
 ## Building the Game
 
@@ -31,7 +31,7 @@ First of all, I want to thank each and everybody who provides reusable media on 
 ## Music
 
 ### Main Screen Music: "A Look To The Future" by **Chris Huelsbeck**
-used under a royalty-free license, please visit https://www.patreon.com/chris_huelsbeck for more info! 
+used under a royalty-free license, please visit https://www.patreon.com/chris_huelsbeck for more info!
 
 You may also visit http://www.huelsbeck.com/ and check out Chris Huelsbecks work.
 
@@ -40,7 +40,7 @@ You may also visit http://www.huelsbeck.com/ and check out Chris Huelsbecks work
 ### In-Level Tracks: "4 Chiptune Adventures" by Juhani Junkala
 published under Creative Commons License CC0 on https://opengameart.org/content/4-chiptunes-adventure
 
-You may also visit https://juhanijunkala.com and check out Juhani Junkalas work. 
+You may also visit https://juhanijunkala.com and check out Juhani Junkalas work.
 
 ---
 
