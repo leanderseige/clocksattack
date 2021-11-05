@@ -35,18 +35,18 @@ export default class PadController {
     // console.log(gp)
 
     if (this.buttonPressed(gp.buttons[14])) {
-      this.x -= .5
+      this.x -= .25
     } else if (this.buttonPressed(gp.buttons[12])) {
-      this.y -= .5
+      this.y -= .25
     }
 
     if (this.buttonPressed(gp.buttons[13])) {
-      this.y += .5
+      this.y += .25
     } else if (this.buttonPressed(gp.buttons[15])) {
-      this.x += .5
+      this.x += .25
     }
 
-    this.x = this.x>100?100:this.x
+    this.x = this.x>200?200:this.x
     this.y = this.y>100?100:this.y
     this.x = this.x<0?0:this.x
     this.y = this.y<0?0:this.y
