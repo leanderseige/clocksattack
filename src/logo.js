@@ -1,5 +1,5 @@
-import LogoClocks from './images/logo-clocks.svg'
-import LogoAttack from './images/logo-attack.svg'
+import LogoClocks from './images/logo-clocks-filled.svg'
+import LogoAttack from './images/logo-attack-filled.svg'
 
 export default class Logo {
 

@@ -4,17 +4,18 @@ import ClockImage3 from './images/clock3.png'
 export default class Clock3 extends Clock {
 
   init() {
+    let w = 30
     this.lives = 5
-    this.img.style.width = "30vh"
+    this.img.style.width = w+"vh"
     this.img.src = ClockImage3
     this.rand =  Math.floor(Math.random() * 8)
     this.randwidth = Math.random() * 10
     this.randwoff = 10 + Math.random() * 20
     this.randwstrt = Math.random() * 2 * Math.PI
-    this.randshake = 2 + Math.random() * 4
+    this.randshake = 2 + Math.random() / 4
     this.randshoff = Math.random() * 2 * Math.PI
     this.randspeed = Math.random() / 4
-    this.left = "calc( 50vw - " + this.img.style.width + "/2 )"
+    this.left = "calc( 50vw - " + (w/2) + "vh )"
     this.callback(this.id,'ADDBOSS')
     this.offsetTarget=false
     this.offsetCount=0
@@ -29,7 +30,7 @@ export default class Clock3 extends Clock {
   moveHorizontal() {
     if(this.offsetCount>0) {
       let rec = this.img.getBoundingClientRect()
-      this.left = "calc( " + rec.left + "px + "+ this.offsetTarget + "/" + this.offsetCount + " )"
+      // this.left = "calc( " + rec.left + "px + "+ this.offsetTarget + "/" + this.offsetCount + " )"
       this.offsetCount--
     }
   }
