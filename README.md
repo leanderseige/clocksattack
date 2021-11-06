@@ -6,7 +6,7 @@ This prototype of a game is my contribution to the open cultural data hackathon 
 
 CLOCKS ATTACK!!! works great in Chrome under Windows, Linux, Mac OSX and Android. It is not compatible with IOS and Safari, sorry.
 
-Play CLOCKS ATTACK!!! now on https://clocksattack.com 
+Play CLOCKS ATTACK!!! now on https://clocksattack.art 
 
 Support us and get your CLOCKS ATTACK!!! Merch at https://www.shirtee.com/de/store/usedpictures/
 
