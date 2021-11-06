@@ -2,7 +2,9 @@
 
 ![Clocks Attack](doc/github-socmed.png)
 
-This game is my contribution to the open cultural data hackathon Coding da Vinci Nieder.Rhein.Land 2021  (https://codingdavinci.de/de/events/niederrheinland-2021). In this game opulent grand clocks from Benrath Palace disturb the sleep of humans and animals from popular works of art and culture. The player can prevent this and save them from being woken up by throwing apples at the approaching clocks.
+This prototype of a game is my contribution to the open cultural data hackathon Coding da Vinci Nieder.Rhein.Land 2021  (https://codingdavinci.de/de/events/niederrheinland-2021). In this game opulent grand clocks from Benrath Palace disturb the sleep of humans and animals from popular works of art and culture. The player can prevent this and save them from being woken up by throwing apples at the approaching clocks.
+
+Support us and get your CLOCKS ATTACK!!! Merch at https://www.shirtee.com/de/store/usedpictures/
 
 ## Building the Game
 
