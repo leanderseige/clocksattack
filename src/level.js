@@ -68,10 +68,17 @@ export default class Level {
     this.alarm_audio.play()
     this.music.pause()
     // alarm clock
-    let r = this.getCenterOfImage(this.clocks[id].img)
+    console.log("alarm id: "+id)
     let img = document.createElement('img')
-    img.style.top = r.y+"px"
-    img.style.left = r.x+"px"
+    if(this.clocks[id]!==undefined) {
+      let r = this.getCenterOfImage(this.clocks[id].img)
+      img.style.top = r.y+"px"
+      img.style.left = r.x+"px"
+    } else {
+      console.log("UNDEFINED CLOCK!?!?")
+      img.style.top = "50vh"
+      img.style.left = "50vw"
+    }
     img.src = AlarmImage
     document.getElementById('mainframe').appendChild(img)
     img.className = "alarms"
@@ -91,6 +98,7 @@ export default class Level {
 
   finish(element) {
     setTimeout(() => {
+      try {
         document.getElementById('level_background').classList.remove("shake")
         // turn off alarm
         this.alarm_audio.pause()
@@ -100,13 +108,16 @@ export default class Level {
           this.clocks[key].remove()
           delete this.clocks[key]
         }
-        this.stop()
+      } catch(e) {}
+      this.stop()
     },3000)
     // clean up
-    for(let key in this.clocks) {
-      this.clocks[key].remove()
-      delete this.clocks[key]
-    }
+    try {
+      for(let key in this.clocks) {
+        this.clocks[key].remove()
+        delete this.clocks[key]
+      }
+    } catch(e) {}
   }
 
   stop() {

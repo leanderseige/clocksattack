@@ -72,6 +72,9 @@ export default class Preloader {
       ]
       this.e = document.getElementById('preloader')
       this.bar = document.getElementById('preloader_progress_bar')
+      this.button = document.getElementById('pl_enter')
+      this.button.disabled = true
+      this.button.onclick = () => { this.exit() }
       this.percent = 0
       this.blobs = {}
       this.callback = callback
@@ -84,7 +87,8 @@ export default class Preloader {
       this.percent=parseInt((key/(files.length-1))*100)
       this.bar.style.width = this.percent+"%"
     }
-    this.exit()
+    this.button.disabled=false
+    // this.exit()
   }
 
   exit() {

@@ -31,6 +31,8 @@ let preloader = false
 let levels = {}
 let score  = [0,0,0]
 
+const startlevel = 1
+
 let globals = {
   current_level: 1,
   volume: 1,
@@ -56,7 +58,7 @@ function endGame(success) {
   if(success && globals.current_level<=globals.maxlevel) {
     startGame()
   } else {
-    globals.current_level = 1
+    globals.current_level = startlevel
     globals.logo.unhide()
     mainmenu.unhide()
   }
@@ -64,11 +66,15 @@ function endGame(success) {
 
 function updateDisplay(scoreplus,player) {
   score[parseInt(player)] += scoreplus
-  document.getElementById('scoreleft').innerHTML=score[2]
-  document.getElementById('scoreright').innerHTML=score[1]
+  document.getElementById('scoreleft').innerHTML='P2: <span class="red">'+score[2]+'<span>'
+  document.getElementById('scoreright').innerHTML='P1: <span class="red">'+score[1]+'<span>'
+  document.getElementById('scoremiddle').innerHTML="Level "+globals.current_level
+
 }
 
 function startGame() {
+  score=[0,0,0]
+  updateDisplay(0,1)
   mainmenu.hide()
   globals.logo.hide()
   levels[globals.current_level].start()
@@ -143,6 +149,6 @@ window.onload = () => {
   //   (success) => { endGame(success) }
   // )
   globals.maxlevel = 13
-  globals.current_level=1
+  globals.current_level = startlevel
   preloader = new Preloader( () => { enterMenu() } )
 }
