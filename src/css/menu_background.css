@@ -17,7 +17,7 @@
   animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  opacity: .5;
+  opacity: .75;
   z-index:610;
 }
 
@@ -27,7 +27,7 @@
   top:10vh;
   width:100vh;
   height:100vh;
-  background-image: linear-gradient(0deg, rgb(0,0,0,0) 0%, rgb(0,0,0,192) 45%, rgb(0,0,0,192) 55%, rgb(0,0,0,0) 100%);
+  background-image: linear-gradient(0deg, rgb(0,0,0,0) 0%, rgb(0,0,0,192) 40%, rgb(0,0,0,192) 60%, rgb(0,0,0,0) 100%);
   animation-name: mm_shadow_kf;
   animation-duration: 10s;
   animation-iteration-count: infinite;
