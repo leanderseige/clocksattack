@@ -149,6 +149,11 @@ h1 {
 .red {
   color:red;
 }
+
 .darkgreen {
   color:#108010;
+}
+
+.heading {
+  color:white;
 }

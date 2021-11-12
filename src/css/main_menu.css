@@ -20,3 +20,32 @@ p {
   padding:0;
   margin:0;
 }
+
+#mmscrollcont {
+  padding:0;
+  margin:0;
+  height: 35vh;
+  overflow: hidden;
+  display:inline-block;
+  width:100%;
+}
+
+#mmscroll {
+  padding:0vh 3vh;
+  margin:0;
+  height: 35vh;
+  animation-name: mmscrollkf;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display:inline-block;
+}
+
+@keyframes mmscrollkf {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(-250%);
+  }
+}
